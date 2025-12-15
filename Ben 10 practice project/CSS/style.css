@@ -1,0 +1,116 @@
+body{
+
+    margin: auto 0;
+    background-color: rgb(6, 6, 6);
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50vh;
+
+}
+
+.zone {
+    padding: 0;
+    margin: 0px;
+    cursor: pointer;
+    color: #e1e3e1;
+    font-size: 2em;
+    border-radius: 0px;
+    border: 1px solid #0b0b0b;
+    transition: all 0.3s linear;
+    border: 0;
+}
+
+
+li{
+    padding: 17px;
+    list-style: none;
+
+}
+
+a{
+    text-decoration: none;
+    color: #546d6d;
+
+}
+
+.nav {
+    padding: 0;
+    background: linear-gradient(0deg, rgb(209, 250, 4) 5%, rgb(16, 249, 3) 100%);
+    margin: 0;
+    display: flex;
+    width: 100%;
+    font-size: 0.8em;
+    border: 0;
+}
+.red {
+    margin-top: 0px;
+    border: 0;
+}
+/*
+.red{
+    background-image: linear-gradient(rgb(245, 7, 134), rgb(245, 22, 22));
+    
+}*/
+/*
+.blue{
+    background-image: linear-gradient(rgb(0, 183, 255), rgb(121, 215, 236));
+}*/
+
+.yellow{
+    background-image: linear-gradient(rgb(11, 12, 11), rgb(7, 252, 19));
+}
+
+.push{
+
+    margin-left: auto;
+
+}
+
+@media only screen and (max-width: 600px){
+    main-nev{
+    font-size: 0.1em;
+    padding: 0;
+    }
+}
+
+.grid-wrapper{
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: repeat(auto-fill , minmax(300px, 1fr));
+
+}
+
+.box > img {
+    height: 100%;
+    width: 100%;
+}
+
+.container > img {
+    height: 100%;
+    width: 100%;
+    grid-gap: 10vh;
+}
+
+.box {
+    margin: repeat(auto-fill , minmax(350px, 1fr));
+    size: 1px;
+    background-color: aqua;
+    width: 50vh;
+    height: 50vh;
+}
+
+.yellow {
+    align-self: baseline;
+    height: 20vh;
+    
+}
+
+.box :hover{
+    filter: grayscale(1)
+    brightness(0.4);
+}
+
